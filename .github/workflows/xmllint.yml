@@ -1,0 +1,22 @@
+name: xmllint
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: XML validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install libxml2-utils
+      - name: Download XSD
+        run: curl -L https://www.gpxsee.org/map/1.7/map.xsd > map.xsd
+      - name: Run xmllint
+        run: find World -type f -exec xmllint --schema map.xsd {} --noout --quiet \;
