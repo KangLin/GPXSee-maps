@@ -19,4 +19,4 @@ jobs:
       - name: Download XSD
         run: curl -L https://www.gpxsee.org/map/1.7/map.xsd > map.xsd
       - name: Run xmllint
-        run: find World -type f | while read FILE; do xmllint --schema map.xsd --noout --quiet "$FILE"; done
+        run: find World -type f | while read FILE; do xmllint --schema map.xsd --noout "$FILE"; done
