@@ -3,7 +3,7 @@
 	<name>NLSC - EMAP</name>
 	<url>https://wmts.nlsc.gov.tw/wmts</url>
 	<copyright>NLSC</copyright>
+	<format>image/jpeg</format>
 	<layer>EMAP</layer>
 	<set>GoogleMapsCompatible</set>
-	<format>image/jpeg</format>
 </map>

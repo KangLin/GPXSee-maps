@@ -3,7 +3,7 @@
 	<name>NLSC - PHOTO2020</name>
 	<url>https://wmts.nlsc.gov.tw/wmts</url>
 	<copyright>NLSC</copyright>
+	<format>image/jpeg</format>
 	<layer>PHOTO2020</layer>
 	<set>GoogleMapsCompatible</set>
-	<format>image/jpeg</format>
 </map>

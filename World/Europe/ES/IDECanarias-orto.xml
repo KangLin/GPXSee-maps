@@ -3,7 +3,7 @@
 	<name>IDECanarias Orto</name>
 	<url>https://idecan1.grafcan.es/ServicioWMS/OrtoUrb</url>
 	<copyright>© GRAFCAN, non-commercial use only</copyright>
+	<format>image/jpeg</format>
 	<layer>OrtoExpressUrb</layer>
 	<crs>EPSG:32628</crs>
-	<format>image/jpeg</format>
 </map>
