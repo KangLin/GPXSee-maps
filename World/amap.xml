@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.7">
+	<name>Amap Map</name>
+	<url>https://webst01.is.autonavi.com/appmaptile?style=6&amp;x=$x&amp;y=$y&amp;z=$z</url>
+</map>
+
+<!--
+style:
+6: 高德卫星影像
+7：高德矢量底图
+8：高德路网注记
+参见：https://zhuanlan.zhihu.com/p/641436984
+--!>
