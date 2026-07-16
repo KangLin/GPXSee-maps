@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.7" type="TMS">
+	<name>ArcGIS</name>
+	<!-- 卫星 -->
+	<url>https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/$z/$y/$x.png</url>
+	<!-- 街景 -->
+	<!--
+	<url>https://server.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/$z/$y/$x.png</url>
+	-->
+</map>
+
+<!--
+参见：https://zhuanlan.zhihu.com/p/641436984
+-->
